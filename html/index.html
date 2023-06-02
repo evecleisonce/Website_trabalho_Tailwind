@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, inicial-scale=1.0" />
+        <title>Venda de carros</title>
+        <link rel="stylesheet" href="" />
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <header class="bg-[#333] text-white flex justify-between">
+            <div id="div1" class="flex items-center">
+
+                <div>
+                    <img src="../img/logo.png" alt="Logo da Empresa de Carros" class="h-40">
+                </div>
+
+                <div class="info">
+                    <h1>Empresa de Carros</h1>
+                    <p>Venda de carros novos e usados</p>
+                </div>
+
+            </div>
+
+            <div id="div1-1" class="flex-col">
+
+                <div class="flex justify-end">
+                    <button class="border-2 mt-6 mr-4 mb-8">EN</button>
+                    <button class="border-2 mt-6 mr-4 mb-8">ES</button>
+                    <button class="border-2 mt-6 mr-4 mb-8">FR</button>
+                    <button class="border-2 mt-6 mr-4 mb-8">DE</button>
+                </div>
+
+                <div class="mr-4">
+                    <a href="#">Sobre Nós</a> |
+                    <a href="#">Carros Novos</a> |
+                    <a href="#">Carros Usados</a>
+                </div>
+
+            </div>
+        </header>
+        
+        <nav class="bg-[#801010] text-white flex items-center justify-between">
+            <ul class="flex flex-wrap mb-6">
+                <li><a href="#" class="mr-4 hover:underline md:mr-6 ">Home</a></li>
+                <li><a href="#" class="mr-4 hover:underline md:mr-6 ">Produtos</a></li>
+                <li><a href="#" class="mr-4 hover:underline md:mr-6 ">Downloads</a></li>
+                <li><a href="#" class="mr-4 hover:underline md:mr-6 ">Comprar Agora</a></li>
+                <li><a href="#" class="mr-4 hover:underline md:mr-6 ">Suporte</a></li>
+            </ul>
+
+            <form>
+                <input type="text" placeholder="Pesquisar" class="mr-4">
+                <button type="submit" class="border-2 mt-6 mr-4 mb-8">Buscar</button>
+            </form>
+        </nav>
+
+        <div id="div3">
+            <img src="../img/pagina_inicial.png" alt="Imagem de capa da página">
+        </div>
+
+        <div id="div4" class="flex m-5 max-md:flex-wrap">
+
+            <div id="left-section">
+                
+                <div id="section-title" class="bord-solid bord-0">
+                    <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Carros em destaque</h2>
+                </div>
+
+                <div id="car-info" class="flex mb-20">
+
+                    <div id="car-image">
+                        <img src="../img/fig0.jpg" alt="Imagem do carro em destaque" class="h-40">
+                    </div>
+    
+                    <div id="car-description">
+                        <p>
+                            Este é o carro mais incrível que você já viu. Com seu motor potente e design elegante, ele é o
+                            carro dos seus sonhos.
+                        </p>
+    
+                        <div id="car-buttons" class="flex mt-10">
+                            <button class="bg-[#f90] text-white border-2 mt-6 mr-4 ml-4 mb-8">Comprar agora</button>
+                            <button class="bg-[#f90] text-white border-2 mt-6 mr-4 ml-4 mb-8">Agendar um test drive</button>
+                        </div>
+    
+                    </div>
+    
+                </div>
+
+                <div id="section-title">
+                    <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Modelos populares</h2>
+                </div>
+
+                <div id="popular-models" class="flex flex-wrap justify-between">
+
+                    <div id="model" class="mb-20">
+                        <img src="../img/fig1.jpg" alt="Imagem do modelo 1" class="h-20">
+                        <p>Modelo 1</p>
+                    </div>
+
+                    <div id="model" class="mb-20">
+                        <img src="../img/fig2.jpg" alt="Imagem do modelo 2" class="h-20">
+                        <p>Modelo 2</p>
+                    </div>
+
+                    <div id="model" class="mb-20">
+                        <img src="../img/fig3.jpg" alt="Imagem do modelo 3" class="h-20">
+                        <p>Modelo 3</p>
+                    </div>
+
+                    <div id="model" class="mb-20">
+                        <img src="../img/fig4_teste.jpg" alt="Imagem do modelo 4" class="h-20">
+                        <p>Modelo 4</p>
+                    </div>
+
+                </div>
+
+                <div id="user-reviews">
+                    <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Avaliações de usuários</h2>
+
+                    <div id="review" class="leading-10 mt-5">
+                        <p>
+                            Este carro é simplesmente incrível. Eu nunca dirigi nada parecido com ele antes. Mal posso
+                            esperar para comprar o meu próprio.
+                        </p>
+                        <p id="reviewer" class="italic">- João</p>
+                    </div>
+
+                    <div id="review">
+                        <p>
+                            Eu testei o carro e fiquei muito impressionado com sua potência e estilo. Definitivamente vou
+                            considerar comprá-lo no futuro.
+                        </p>
+                        <p id="reviewer" class="italic">- Maria</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="right-section">
+                
+                <div id="social-button" class="bg-[#f90] text-white border-2 mt-6 ml-4 mb-4">
+                    <button>Compartilhar nas redes sociais</button>
+                </div>
+
+                <div id="video" class="mb-4">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+                <div id="share-links" class="mb-4">
+                    <h3 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Compartilhar e links</h3>
+                    <ul class="max-w-md space-y-1  list-disc list-inside dark:text-gray-400">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
+
+                <div id="navigate-button">
+                    <button class="bg-[#00f] border-2 mt-6 ml-4 mb-4">Navegar para a concessionária mais próxima</button>
+                </div>
+
+                <div id="example-items">
+                    <h3 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Exemplos</h3>
+                    <ul class="max-w-md space-y-1  list-disc list-inside dark:text-gray-400">
+                        <li>Garantia de 5 anos em todos os carros novos</li>
+                        <li>Financiamento disponível para todos os modelos</li>
+                        <li>Serviço de manutenção gratuito por 1 ano</li>
+                        <li>Programa de fidelidade para clientes frequentes</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+</html>
